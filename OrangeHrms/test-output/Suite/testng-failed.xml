@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BusinessScripts.Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="afterTCExcution"/>
+          <include name="initialiseReport"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="runTimeTcName"/>
+        </methods>
+      </class> <!-- BusinessScripts.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

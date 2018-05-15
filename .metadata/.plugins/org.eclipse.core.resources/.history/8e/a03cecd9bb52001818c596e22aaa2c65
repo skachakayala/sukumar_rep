@@ -1,0 +1,25 @@
+package Pom;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.server.handler.SwitchToFrame;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage {
+
+	@FindBy(linkText="Home")
+	WebElement homeLink;
+	
+	@FindBy(xpath="//a[@title='Calendar']")
+	WebElement calenderLink;
+	
+	@FindBy(xpath="//a[@title='Companies']")
+	WebElement companyLink;
+	
+	public void homePage()
+	{
+		
+		//homeLink.click();
+		calenderLink.click();
+	}
+
+}

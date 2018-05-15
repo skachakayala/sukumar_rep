@@ -1,0 +1,22 @@
+package com.Basic.Programs;
+
+
+
+import java.rmi.server.RemoteServer;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
+
+public class RemoteRunEx {
+	
+	public static void main(String[] args) {
+		
+	
+		WebDriver driver=null;
+		DesiredCapabilities desir = DesiredCapabilities.firefox();
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+		driver.manage().window().maximize();.*/
+	}
+	}

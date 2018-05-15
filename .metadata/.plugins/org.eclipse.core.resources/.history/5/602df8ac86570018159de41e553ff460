@@ -1,0 +1,17 @@
+package com.Basic.Programs;
+
+import org.testng.annotations.Test;
+import org.testng.reporters.jq.Main;
+
+public class Test3Sub extends Test3Main{
+	String s;
+	
+	public static void main(String args[])
+	{
+		Test3Main t =new Test3Main();
+		//t.s= Test3Main.getString();
+		//System.out.println(t.s);
+		System.out.println(t.i);
+	}
+
+}

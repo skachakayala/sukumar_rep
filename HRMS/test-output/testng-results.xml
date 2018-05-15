@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46089" started-at="2018-05-11T08:58:11Z" finished-at="2018-05-11T08:58:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46089" started-at="2018-05-11T08:58:11Z" finished-at="2018-05-11T08:58:57Z">
+      <class name="com.Utilities.ReadData">
+        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="10939" started-at="2018-05-11T14:28:11Z" data-provider="dataRead" finished-at="2018-05-11T14:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readdata -->
+        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="12800" started-at="2018-05-11T14:28:22Z" data-provider="dataRead" finished-at="2018-05-11T14:28:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sukumar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sukumar1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readdata -->
+        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="10832" started-at="2018-05-11T14:28:35Z" data-provider="dataRead" finished-at="2018-05-11T14:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sukumar2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sukumar2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readdata -->
+        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="11053" started-at="2018-05-11T14:28:46Z" data-provider="dataRead" finished-at="2018-05-11T14:28:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sukumar3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sukumar3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readdata -->
+      </class> <!-- com.Utilities.ReadData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

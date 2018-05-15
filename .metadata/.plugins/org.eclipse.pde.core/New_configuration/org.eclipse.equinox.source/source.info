@@ -1,0 +1,8 @@
+#encoding=UTF-8
+#version=1
+com.beust.jcommander.source,1.72.0,file:/F:/Sukumar%20Backup/Java/eclipse-jee-juno-SR1-win32/eclipse/plugins/com.beust.jcommander.source_1.72.0.jar,-1,false
+org.apache-extras.beanshell.bsh.source,2.0.0.b6,file:/F:/Sukumar%20Backup/Java/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.apache-extras.beanshell.bsh.source_2.0.0.b6.jar,-1,false
+org.eclipse.persistence.jpa.jpql.source,2.0.1.v20121206-a9d0e8d,file:/F:/Sukumar%20Backup/Java/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.eclipse.persistence.jpa.jpql.source_2.0.1.v20121206-a9d0e8d.jar,-1,false
+org.eclipse.rse.useractions.source,1.1.400.201209191030,file:/F:/Sukumar%20Backup/Java/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.eclipse.rse.useractions.source_1.1.400.201209191030.jar,-1,false
+org.testng.source,6.14.2.r201802161450,file:/F:/Sukumar%20Backup/Java/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.testng.source_6.14.2.r201802161450.jar,-1,false
+org.yaml.snakeyaml.source,1.17.0,file:/F:/Sukumar%20Backup/Java/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.yaml.snakeyaml.source_1.17.0.jar,-1,false

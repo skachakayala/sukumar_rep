@@ -1,0 +1,26 @@
+package BusinessScripts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import BaseEngine.DriverEngine;
+import PomScripts.LoginPom;
+import PropertiesReusableScripts.ConfigProperties;
+
+public class Login extends DriverEngine{
+	
+	WebDriver driver;
+	@Test
+	public void login()
+	{
+		driver = DriverEngine.getDriver();
+		String url = ConfigProperties.getPropertiesObject().getProperty("URL");
+		System.out.println(url);
+		driver.get(url);
+		LoginPom pf = PageFactory.initElements(driver, LoginPom.class);
+		pf.login("Admin", "admin");
+	}
+	
+
+}

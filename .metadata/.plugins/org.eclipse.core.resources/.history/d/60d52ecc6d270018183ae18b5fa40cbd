@@ -1,0 +1,32 @@
+package seleniumTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.LogStatus;
+
+public class TestDemo2 extends TestDemo{
+	WebDriver driver;
+	@Test
+	public void main() {
+		driver = TestDemo.getDriver();
+		/*driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		System.out.println("hash code is "+driver);*/
+		System.out.println("driver in demo2 "+driver);
+		driver.get("http://extentreports.com/");
+		if(driver.findElements(By.id("txtEmployeeId")).size()!=1)
+		{
+			System.out.println("elemnt exist");
+			//logger.log(LogStatus.PASS, "elemnt exist");
+		}
+		else
+		{
+			//logger.log(LogStatus.FAIL, "elemnt not exist");
+			System.out.println("elemnt not exist");
+		}
+
+	}
+}

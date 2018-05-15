@@ -1,0 +1,11 @@
+package Utilities;
+
+public interface DriverKeys {
+	String firefoxDriverKey="webdriver.geco.driver";
+	String firefoxDriverValue="\\Drivers\\geckodriver.exe";
+	String ieDriverKey="";
+	String ieDriverValue="\\Drivers\\IEDriverServer.exe";
+	String chromeDriverKey="";
+	String chromeDriverValue="\\Drivers\\chromedriver.exe";
+
+}

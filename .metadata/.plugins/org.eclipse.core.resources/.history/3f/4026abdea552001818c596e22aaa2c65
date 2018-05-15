@@ -1,0 +1,20 @@
+package crmPro;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import BaseEngine.DriverEngine;
+import Pom.LoginPom;
+
+public class Login {
+	WebDriver driver;
+
+	@Test
+	public void login()
+	{
+		driver = DriverEngine.getDriver();
+		driver.get("https://www.freecrm.com/index.html");
+		PageFactory.initElements(driver, LoginPom.class);
+	}
+}

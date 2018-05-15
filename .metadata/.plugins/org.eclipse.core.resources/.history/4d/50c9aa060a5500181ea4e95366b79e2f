@@ -1,0 +1,20 @@
+package BusinessScripts;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import BaseEngine.DriverEngine;
+import PomScripts.LoginPom;
+
+public class Login extends DriverEngine{
+	
+	WebDriver driver;
+	@Test
+	public void login()
+	{
+		driver = DriverEngine.getDriver();
+		LoginPom.login("Admin", "admin");
+	}
+	
+
+}

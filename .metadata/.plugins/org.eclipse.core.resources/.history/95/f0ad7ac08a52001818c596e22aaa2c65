@@ -1,0 +1,22 @@
+package DriverEngine;
+
+import org.openqa.selenium.WebDriverException;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
+public class DriverEngine {
+	
+	
+	WebDriverException diver;
+	@BeforeSuite
+	@Parameters({"browser"})
+	public void openBrowser(@Optional("firefox")String browser)
+	{
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			
+		}
+	}
+
+}

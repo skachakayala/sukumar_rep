@@ -1,0 +1,11 @@
+package com.Basic.Programs;
+
+public class Test3Main {
+
+	private static String s="sukumar";
+	int i=10;
+	public static String getString()
+	{
+		return s;
+	}
+}

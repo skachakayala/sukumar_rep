@@ -1,0 +1,11 @@
+package Utilities;
+
+public interface DriverKeys {
+	String firefoxDriverKey="";
+	String firefoxDriverValue="";
+	String ieDriverKey="";
+	String ieDriverValue="";
+	String chromeDriverKey="";
+	String chromeDriverValue="";
+
+}

@@ -1,0 +1,13 @@
+package com.Basic.Programs;
+
+public class B extends A {
+ int a=20;
+	public static void main(String[] args) {
+		A obj=new B();
+		
+		obj.display();
+		System.out.println(obj.a);
+
+	}
+
+}

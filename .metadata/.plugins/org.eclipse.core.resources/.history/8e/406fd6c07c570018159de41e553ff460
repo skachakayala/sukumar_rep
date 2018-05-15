@@ -1,0 +1,12 @@
+package com.Basic.Programs;
+
+public class Test3Sub {
+	String s;
+	@Test
+	public void writte()
+	{
+		s= Test3Main.getString();
+		System.out.println(s);
+	}
+
+}

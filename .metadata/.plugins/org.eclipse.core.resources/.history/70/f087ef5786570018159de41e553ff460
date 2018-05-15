@@ -1,0 +1,15 @@
+package com.Basic.Programs;
+
+import org.testng.annotations.Test;
+
+public class Test3Sub extends Test3Main{
+	String s;
+	@Test
+	public void writte()
+	{
+		s= Test3Main.getString();
+		System.out.println(s);
+		System.out.println(i);
+	}
+
+}

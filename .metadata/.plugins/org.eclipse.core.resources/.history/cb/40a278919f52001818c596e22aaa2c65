@@ -1,0 +1,33 @@
+package BaseEngine;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
+public class DriverEngine {
+	
+	
+	WebDriver diver;
+	String currentDir;
+	@Parameters({"browser"})
+	@BeforeSuite
+	public void openBrowser(@Optional("firefox")String browser)
+	{
+		
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			currentDir = System.getProperty("user.dir");
+			System.setProperty("webdriver.geco.driver",currentDir+"\\Drivers\\geckodriver.exe" );
+			System.setProperty("webdriver.chrome.driver",currentDir+"\\Drivers\\chromedriver.exe" );
+			System.setProperty("webdriver.ie.driver",currentDir+"\\Drivers\\IEDriverServer.exe" );
+			
+		}
+		else if(browser.equalsIgnoreCase("chrome"))
+		{
+			currentDir = System.getProperty("user.dir");
+		}
+	}
+
+}

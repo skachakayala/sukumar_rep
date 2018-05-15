@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BasicPrograms/src&amp;lt;com.Basic.Programs{PrimeNumberProgram.java[PrimeNumberProgram&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BasicPrograms/src&amp;lt;com.Basic.Programs{DeciamlToBinary.java[DeciamlToBinary&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BasicPrograms/src&amp;lt;com.Basic.Programs{DuplicateEle.java[DuplicateEle&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BasicPrograms/src&amp;lt;com.Basic.Programs{ListEx.java[ListEx&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=BasicPrograms/src&amp;lt;com.Basic.Programs{Test.java[Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{TestEx.java[TestEx&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{SetEx.java[SetEx&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{AbstractEx.java[AbstractEx&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{InterfaceImpl.java[InterfaceImpl&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{CloneEx.java[CloneEx&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{DuplicatCount.java[DuplicatCount&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Selenium/src&amp;lt;seleniumTest{OpenBrowser.java[OpenBrowser&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;testEx{ReadDataFromExcel.java[ReadDataFromExcel&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="180" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="149" key="DIALOG_X_ORIGIN"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+</section>

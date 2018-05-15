@@ -1,0 +1,16 @@
+package configuration;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ConfigUtilities {
+	
+	private static PropertiesReusables propertiesReusables;
+	
+	public static Properties getPropertiesObject(String filePath)
+	{
+		FileInputStream fis = new FileInputStream(filePath);
+		propertiesReusables = 
+	}
+
+}

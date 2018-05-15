@@ -1,0 +1,24 @@
+package com.Utilities;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+
+
+public class ReadData {
+	@Test(dataProvider="dataRead")
+	public void readdata()
+	{
+		
+	}
+	@DataProvider(name="dataRead")
+	public static Object[][] readingdata()
+	{
+		
+	
+		return new Object[][]{{"sukumar,sukumar1"},{"sukumar2","sukumar3"}};
+		 
+	}
+
+}
+

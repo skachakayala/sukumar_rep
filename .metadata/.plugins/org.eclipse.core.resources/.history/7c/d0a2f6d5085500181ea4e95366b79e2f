@@ -1,0 +1,68 @@
+package BaseEngine;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+import Utilities.DriverKeys;
+
+public class DriverEngine {
+	
+	private static WebDriver driver;
+	private String currentDir;
+	private static ExtentReports extentReports;
+	private static ExtentTest extentTest;
+	
+
+	@Parameters({"browser"})
+	@BeforeSuite
+	public void openBrowser(@Optional("firefox")String browser)
+	{
+		
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			System.setProperty(DriverKeys.firefoxDriverKey, DriverKeys.firefoxDriverValue);
+			driver = new FirefoxDriver();
+			init();
+		}
+		else if(browser.equalsIgnoreCase("chrome"))
+		{
+			System.setProperty(DriverKeys.chromeDriverKey, DriverKeys.chromeDriverValue);
+			driver = new ChromeDriver();
+			init();
+		}
+		else
+		{
+			System.setProperty(DriverKeys.ieDriverKey, DriverKeys.ieDriverValue);
+			driver = new InternetExplorerDriver();
+			init();
+		}
+	}
+	public void init()
+	{
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+	}
+	
+	public static WebDriver getDriver()
+	{
+		return driver;
+	}
+	
+	@AfterSuite
+	public void closeBrowser()
+	{
+		if(driver!=null)
+		{
+			driver.close();
+		}
+	}
+}
