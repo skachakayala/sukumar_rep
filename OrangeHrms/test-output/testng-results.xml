@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30279" started-at="2018-05-14T09:44:58Z" finished-at="2018-05-14T09:45:28Z">
+  <suite name="Default suite" duration-ms="30127" started-at="2018-06-15T12:35:37Z" finished-at="2018-06-15T12:36:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30279" started-at="2018-05-14T09:44:58Z" finished-at="2018-05-14T09:45:28Z">
-      <class name="BaseEngine.DriverEngine">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:BaseEngine.DriverEngine@191d9ad]" name="openBrowser" is-config="true" duration-ms="10313" started-at="2018-05-14T09:44:48Z" finished-at="2018-05-14T09:44:58Z">
+    <test name="Default test" duration-ms="30127" started-at="2018-06-15T12:35:37Z" finished-at="2018-06-15T12:36:07Z">
+      <class name="BusinessScripts.Login">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:BusinessScripts.Login@10cdf59]" name="openBrowser" is-config="true" duration-ms="5430" started-at="2018-06-15T18:05:31Z" finished-at="2018-06-15T18:05:37Z">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="initialiseReport()[pri:0, instance:BaseEngine.DriverEngine@191d9ad]" name="initialiseReport" is-config="true" duration-ms="203" started-at="2018-05-14T09:44:58Z" finished-at="2018-05-14T09:44:58Z">
+        <test-method status="PASS" signature="initialiseReport()[pri:0, instance:BusinessScripts.Login@10cdf59]" name="initialiseReport" is-config="true" duration-ms="63" started-at="2018-06-15T18:05:37Z" finished-at="2018-06-15T18:05:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseReport -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:BaseEngine.DriverEngine@191d9ad]" name="endReport" is-config="true" duration-ms="291" started-at="2018-05-14T09:45:28Z" finished-at="2018-05-14T09:45:28Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:BusinessScripts.Login@10cdf59]" name="login" duration-ms="29938" started-at="2018-06-15T18:05:37Z" finished-at="2018-06-15T18:06:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:BaseEngine.DriverEngine@191d9ad]" name="closeBrowser" is-config="true" duration-ms="30" started-at="2018-05-14T09:45:29Z" finished-at="2018-05-14T09:45:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- BaseEngine.DriverEngine -->
-      <class name="BusinessScripts.Login">
-        <test-method status="PASS" signature="runTimeTcName(java.lang.reflect.Method)[pri:0, instance:BusinessScripts.Login@69f0bc]" name="runTimeTcName" is-config="true" duration-ms="0" started-at="2018-05-14T09:44:58Z" finished-at="2018-05-14T09:44:58Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="runTimeTcName(java.lang.reflect.Method)[pri:0, instance:BusinessScripts.Login@10cdf59]" name="runTimeTcName" is-config="true" duration-ms="0" started-at="2018-06-15T18:05:37Z" finished-at="2018-06-15T18:05:37Z">
           <params>
             <param index="0">
               <value>
@@ -43,22 +37,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTimeTcName -->
-        <test-method status="PASS" signature="login()[pri:0, instance:BusinessScripts.Login@69f0bc]" name="login" duration-ms="29754" started-at="2018-05-14T09:44:58Z" finished-at="2018-05-14T09:45:28Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:BusinessScripts.Login@10cdf59]" name="endReport" is-config="true" duration-ms="126" started-at="2018-06-15T18:06:07Z" finished-at="2018-06-15T18:06:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterTCExcution(org.testng.ITestResult)[pri:0, instance:BusinessScripts.Login@69f0bc]" name="afterTCExcution" is-config="true" duration-ms="0" started-at="2018-05-14T09:45:28Z" finished-at="2018-05-14T09:45:28Z">
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="afterTCExcution(org.testng.ITestResult)[pri:0, instance:BusinessScripts.Login@10cdf59]" name="afterTCExcution" is-config="true" duration-ms="0" started-at="2018-06-15T18:06:07Z" finished-at="2018-06-15T18:06:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:BusinessScripts.Login@69f0bc] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:BusinessScripts.Login@10cdf59] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTCExcution -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:BusinessScripts.Login@10cdf59]" name="closeBrowser" is-config="true" duration-ms="46" started-at="2018-06-15T18:06:07Z" finished-at="2018-06-15T18:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- BusinessScripts.Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

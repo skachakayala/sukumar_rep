@@ -10,7 +10,7 @@ public class Test2 {
 
 	public static void missingNumber()
 	{
-		int arr[]={1,2,3,5,6,7,10,12,20,13,19};
+		int arr[]={1,2,3,5,6,7,10,8,8,8,12,20,13,19};
 		//Arrays.sort(arr);
 		int max=arr[arr.length-1];
 		Set set = new HashSet();
@@ -28,24 +28,24 @@ public class Test2 {
 		
 	}
 	public static void main(String[] args) {
-		/*int arr[]={1,2,3,5,6,7};
+		int arr[]={1,2,3,5,6,7,8,8,8,7,7,7,6};
 		int max=arr[arr.length-1];
 		System.out.println(max);
 		Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 		for(int i=0;i<arr.length;i++)
 		{
-			int count=1;
+			
 			if(map.containsKey(arr[i]))
-			{;
-				count++;
-				map.put(arr[i], count);
+			{
+				int count=map.get(arr[i]);
+				map.put(arr[i], ++count);
 			}
 			else
 			{
-				map.put(arr[i], count);
+				map.put(arr[i], 1);
 			}
 		}
-		System.out.println(map.);*/
-		Test2.missingNumber();
+		System.out.println(map);
+		//Test2.missingNumber();
 	}
 }

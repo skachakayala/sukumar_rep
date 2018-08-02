@@ -121,7 +121,7 @@ public class DriverEngine {
 	{
 		if(driver!=null)
 		{
-			driver.close();
+			//driver.close();
 		}
 	}
 	

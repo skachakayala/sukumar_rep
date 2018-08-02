@@ -1,77 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46089" started-at="2018-05-11T08:58:11Z" finished-at="2018-05-11T08:58:57Z">
+  <suite name="Default suite" duration-ms="6233" started-at="2018-07-04T13:23:51Z" finished-at="2018-07-04T13:23:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46089" started-at="2018-05-11T08:58:11Z" finished-at="2018-05-11T08:58:57Z">
-      <class name="com.Utilities.ReadData">
-        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="10939" started-at="2018-05-11T14:28:11Z" data-provider="dataRead" finished-at="2018-05-11T14:28:22Z">
+    <test name="Default test" duration-ms="6233" started-at="2018-07-04T13:23:51Z" finished-at="2018-07-04T13:23:57Z">
+      <class name="com.business.Scripts.Login">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="openBrowser" is-config="true" duration-ms="4928" started-at="2018-07-04T18:53:46Z" finished-at="2018-07-04T18:53:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readdata -->
-        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="12800" started-at="2018-05-11T14:28:22Z" data-provider="dataRead" finished-at="2018-05-11T14:28:35Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initialiseReport()[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="initialiseReport" is-config="true" duration-ms="74" started-at="2018-07-04T18:53:51Z" finished-at="2018-07-04T18:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseReport -->
+        <test-method status="PASS" signature="runTimeTcName(java.lang.reflect.Method)[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="runTimeTcName" is-config="true" duration-ms="2" started-at="2018-07-04T18:53:51Z" finished-at="2018-07-04T18:53:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sukumar1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sukumar1]]>
+                <![CDATA[public void com.business.Scripts.Login.login()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readdata -->
-        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="10832" started-at="2018-05-11T14:28:35Z" data-provider="dataRead" finished-at="2018-05-11T14:28:46Z">
+        </test-method> <!-- runTimeTcName -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="login" duration-ms="1252" started-at="2018-07-04T18:53:51Z" finished-at="2018-07-04T18:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTCExcution(org.testng.ITestResult)[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="afterTCExcution" is-config="true" duration-ms="0" started-at="2018-07-04T18:53:52Z" finished-at="2018-07-04T18:53:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sukumar2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sukumar2]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:com.business.Scripts.Login@1d1282d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readdata -->
-        <test-method status="PASS" signature="readdata(java.lang.String, java.lang.String)[pri:0, instance:com.Utilities.ReadData@12277ed]" name="readdata" duration-ms="11053" started-at="2018-05-11T14:28:46Z" data-provider="dataRead" finished-at="2018-05-11T14:28:57Z">
+        </test-method> <!-- afterTCExcution -->
+        <test-method status="PASS" signature="runTimeTcName(java.lang.reflect.Method)[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="runTimeTcName" is-config="true" duration-ms="0" started-at="2018-07-04T18:53:52Z" finished-at="2018-07-04T18:53:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sukumar3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sukumar3]]>
+                <![CDATA[public void com.business.Scripts.Login.swipeReport()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readdata -->
-      </class> <!-- com.Utilities.ReadData -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- runTimeTcName -->
+        <test-method status="PASS" signature="swipeReport()[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="swipeReport" duration-ms="4759" started-at="2018-07-04T18:53:52Z" finished-at="2018-07-04T18:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipeReport -->
+        <test-method status="PASS" signature="afterTCExcution(org.testng.ITestResult)[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="afterTCExcution" is-config="true" duration-ms="0" started-at="2018-07-04T18:53:57Z" finished-at="2018-07-04T18:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=swipeReport status=SUCCESS method=Login.swipeReport()[pri:0, instance:com.business.Scripts.Login@1d1282d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExcution -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="endReport" is-config="true" duration-ms="135" started-at="2018-07-04T18:53:57Z" finished-at="2018-07-04T18:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.business.Scripts.Login@1d1282d]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-07-04T18:53:57Z" finished-at="2018-07-04T18:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.business.Scripts.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

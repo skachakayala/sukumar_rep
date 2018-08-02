@@ -25,7 +25,8 @@ public class Login extends DriverEngine{
 		driver.get(ObjectReusable.getConfigProperties(ObjectReusable.getConfigFilePath()).getProperyValue("URL"));
 		LoginPom pf = PageFactory.initElements(driver, LoginPom.class);
 		pf.login("Admin", "admi");
-		pf.loginVerification();
+		//pf.loginVerification();
+		
 	}
 	
 

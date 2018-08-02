@@ -1,18 +1,18 @@
 package com.Basic.Programs;
 
 public class A {
- int  a=10;
-  A a1;
- 
-	public void display()
-	{
 	
 		
+	public  static void method()
+	{
+		String emailId= "sukumarkachakayala@gmail.com";
+		System.out.println("a method");
+		System.out.println(emailId.equalsIgnoreCase("sukumar.kachakayala@gmail.com"));
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println(1%10);
+		method();
 	}
-
+	
 }

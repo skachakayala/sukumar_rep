@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23" started-at="2018-05-14T13:29:13Z" finished-at="2018-05-14T13:29:13Z">
+  <suite name="Suite" duration-ms="18529" started-at="2018-06-07T15:47:49Z" finished-at="2018-06-07T15:48:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23" started-at="2018-05-14T13:29:13Z" finished-at="2018-05-14T13:29:13Z">
+    <test name="Test" duration-ms="18529" started-at="2018-06-07T15:47:49Z" finished-at="2018-06-07T15:48:07Z">
+      <class name="BaseEngine.DriverEngine">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:BaseEngine.DriverEngine@10dba0d]" name="openBrowser" is-config="true" duration-ms="4776" started-at="2018-06-07T15:47:44Z" finished-at="2018-06-07T15:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- BaseEngine.DriverEngine -->
       <class name="crmPro.Login">
-        <test-method status="PASS" signature="login()[pri:0, instance:crmPro.Login@1026e40]" name="login" duration-ms="7" started-at="2018-05-14T13:29:13Z" finished-at="2018-05-14T13:29:13Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:crmPro.Login@31ac05]" name="login" duration-ms="18270" started-at="2018-06-07T15:47:49Z" finished-at="2018-06-07T15:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:crmPro.Login@31ac05]" name="homePage" duration-ms="247" started-at="2018-06-07T15:48:07Z" depends-on-methods="crmPro.Login.login" finished-at="2018-06-07T15:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
       </class> <!-- crmPro.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

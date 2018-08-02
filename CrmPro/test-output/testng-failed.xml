@@ -6,6 +6,7 @@
     <classes>
       <class name="crmPro.Login">
         <methods>
+          <include name="homePage"/>
           <include name="login"/>
         </methods>
       </class> <!-- crmPro.Login -->
